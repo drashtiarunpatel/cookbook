@@ -1,0 +1,98 @@
+.details {
+  .header{
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 0px;
+    .header-back-btn{
+      align-self: flex-end;
+    .back-btn{
+      color: #0000ff;
+      float: left;
+      background-color: white;
+      border-color: #0000ff;
+    }
+  }
+    .header-content{
+      background: white;
+      border-radius: 15px;
+      border: 1px solid rgb(92, 92, 179);
+    }
+    .detail-actions{
+      text-align: end;
+      align-self: flex-end;
+      .detail-action-btn{
+        color: #0000ff;
+        border-color: #0000ff;
+        background-color: white;
+      }
+      .detail-action-btn:hover{
+        background-color: #ff00ff;
+        color: white;
+        border-color: #ff00ff!important;
+      }}
+    }
+    .header:before {
+      content:"";
+      position:absolute;
+      width:100%;
+      height:100%;
+      left:0;
+      top:0;
+      z-index:-1;
+      opacity:0.3;
+      background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../images/Itemsrecept.png");
+      background-size: contain;
+      background-repeat: repeat;
+      background-position: center;
+    }
+    .no-data-div{
+      background-color: white;
+      text-align: center;
+      font-size: large;
+      border-radius:15px ;
+      padding: 10px;
+      margin: 0px 50px;
+      .no-data-btn{
+          color: #0000ff;
+          border-color: #0000ff;
+          background-color: white;
+        }
+        .no-data-btn:hover{
+          background-color: #ff00ff;
+          color: white;
+          border-color: #ff00ff!important;
+        }
+    }
+    .rating{
+      margin-right: 10px;
+      
+    }
+    .content{
+      margin:20px;
+      .content-heading{
+        color: #0000ff;
+        margin-top: 10px;
+      }
+      .rate{
+        margin-top: 10px;
+        background-color: #0000ff;
+        text-align: center;
+        font-size: x-large;
+        color: white;
+      }
+    }
+    .rate-class{
+      display: inline-flex;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .details {
+      .header{
+  .detail-actions{
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+}
+}

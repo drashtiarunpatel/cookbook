@@ -1,0 +1,94 @@
+.addEdit {
+  .is-invalid{
+  border-color: #dc3545!important;
+    box-shadow: 0 0 0 0.2rem rgba(220,53,69,.25)!important;
+    background-image: none!important;
+}
+.star-filled{
+  color:purple;
+}
+.width-min-content{
+  width:min-content!important;
+  padding:15px;
+}
+.list-item{
+  display: flex;
+}
+.list-item:hover{
+  cursor: pointer;
+  background-color: pink;
+}
+.header{
+  border-bottom: 0.5px solid lightgrey;
+  margin-bottom: 20px;
+  .header-line{
+    text-align: center;
+  }
+  .back-btn{
+    color: #0000ff;
+    border-color: #0000ff;
+  }
+  .back-btn:hover{
+    color: white;
+    background-color: #ff00ff;
+    border-color: #ff00ff;
+  }
+  .action-btns{
+    text-align: end;
+    align-self: flex-end;
+    .add-btn{
+      color: #0000ff;
+      border-color: #0000ff;
+      background-color: white;
+      }
+      .add-btn:hover{
+          background-color: #ff00ff;
+          color: white;
+          border-color: #ff00ff!important;
+      }
+  }
+}
+.addIngred-btn{
+  margin-top: 5px;
+  cursor: pointer;
+  border-color: #ff00ff;
+  color: #ff00ff;
+}
+.addIngred-btn:hover{
+  background-color: #0000ff;
+}
+.remove-ingred-btn{
+  cursor: pointer;
+}
+}
+@media only screen and (min-width: 600px) {
+.addEdit{
+  margin: 50px;
+  .addEdit-Form{
+    margin: 30px;
+  }
+}
+.list-header{
+  margin: 20px;
+}
+}
+@media only screen and (max-width: 600px) {
+  .addEdit{
+    margin: 20px;
+    .addEdit-Form{
+      margin: 30px;
+    }
+    .list-header{
+      margin: 20px;
+    }
+.list-items{
+  padding:10px;
+}
+.header{
+  .action-btns{
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+}
+}
